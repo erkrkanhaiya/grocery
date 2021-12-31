@@ -1,0 +1,7 @@
+// DO NOT COMMIT OR EDIT THIS FILE
+API_URL=http:/$()/15.207.208.221/
+DESIGN_WIDTH=375
+DESIGN_HEIGHT=812
+GOOGLE_REVERSE_CLIENT_ID=com.googleusercontent.apps.342827682835-8v7hjf6b1nsv42363n8o2smujg53agsg
+GOOGLE_WEB_CLIENT_ID=342827682835-ese0hnhifirndl2ntivj972fmiijbfn7.apps.googleusercontent.com
+COACH_REPORT=https:/$()/docs.google.com/forms/d/1DoAi2E8laQi30Zruys1vSQ4-j5iuuGSNnK7lSfqFH-k/formrestricted?edit_requested=true

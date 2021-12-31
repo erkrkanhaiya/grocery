@@ -1,0 +1,67 @@
+### Term and condition API 
+POST https://damp-journey-96434.herokuapp.com/api/mobile/firebaseUser HTTP/1.1
+Content-type: application/json
+Content-Length: <calculated when request is sent>
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZDkzNGFhODRjODMzZDUzZTZhMTZmOWIiLCJpYXQiOjE1Njk5MzQ1MTF9.E59XiFSEpKSThf7yMOfLcyXlXFL_7CKORos8Pm2LJ4o
+
+{
+   "name":"kkkkkk",
+   "email":"kanhaiya@gmial.er",
+   "password":"asdasdasd",
+   "price": 321,
+   "image":"abc.jpg",
+   "count":"23",
+   "weight":"232pound"
+}
+
+
+### Term and condition API 
+POST http://139.162.218.18:6010/api/v1/updateGymTool HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZDkzNGFhODRjODMzZDUzZTZhMTZmOWIiLCJpYXQiOjE1Njk5MzQ1MTF9.E59XiFSEpKSThf7yMOfLcyXlXFL_7CKORos8Pm2LJ4o
+
+{
+   "id":"6002ce3665ab492cba3f4705",
+   "name":"running cycle",
+   "price": 3521,
+   "image":"def.jpg",
+   "count":"55",
+   "weight":"77"
+}
+
+
+### Term and condition API 
+POST http://139.162.218.18:6010/api/v1/deleteGymTool HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZDkzNGFhODRjODMzZDUzZTZhMTZmOWIiLCJpYXQiOjE1Njk5MzQ1MTF9.E59XiFSEpKSThf7yMOfLcyXlXFL_7CKORos8Pm2LJ4o
+
+{
+   "id":"6002ce3665ab492cba3f4705"
+}
+
+
+### Term and condition API 
+POST http://139.162.218.18:6010/api/v1/updateGymToolStatus HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZDkzNGFhODRjODMzZDUzZTZhMTZmOWIiLCJpYXQiOjE1Njk5MzQ1MTF9.E59XiFSEpKSThf7yMOfLcyXlXFL_7CKORos8Pm2LJ4o
+
+{
+   "id":"6002ce3665ab492cba3f4705"
+}
+
+
+###  
+POST http://139.162.218.18:6010/api/v1/getGymToolList HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZDkzNGFhODRjODMzZDUzZTZhMTZmOWIiLCJpYXQiOjE1Njk5MzQ1MTF9.E59XiFSEpKSThf7yMOfLcyXlXFL_7CKORos8Pm2LJ4o
+
+{
+    "keyWord": "",
+    "pageNo": 1,
+    "size": 10
+}
+
+###  
+POST http://139.162.218.18:6010/api/v1/getAllGymTool HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZDkzNGFhODRjODMzZDUzZTZhMTZmOWIiLCJpYXQiOjE1Njk5MzQ1MTF9.E59XiFSEpKSThf7yMOfLcyXlXFL_7CKORos8Pm2LJ4o
